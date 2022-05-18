@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Object Methods</h2>
+
+<p>Object.entries() makes it simple to convert Object to Map:</p>
+
+<p id="demo"></p>
+
+<script>
+const fruits = {Bananas:300, Oranges:200, Apples:500}; 
+
+const myMap = new Map(Object.entries(fruits));
+
+document.getElementById("demo").innerHTML = myMap;
+</script>
+
+</body>
+</html>
